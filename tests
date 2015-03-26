@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>getLInks bookmarklet</title>
+
+
+</head>
+<body>
+
+	<h4>get links</h4>
+	<pre>
+		javascript:(function () {	var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://localhost/bookmarklets/getLinks-bookmarklet.js'); document.body.appendChild(jsCode); }());
+	</pre>
+	<p><a href="javascript:(function () {	var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://localhost/bookmarklets/getLinks-bookmarklet.js'); document.body.appendChild(jsCode); }());">get links</a></p>
+	
+	
+	<h4>css</h4>
+	<pre>
+		javascript:(function () {	var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://localhost/bookmarklets/css-bookmarklet.js'); document.body.appendChild(jsCode); }());
+	</pre>
+	<p><a href="javascript:(function () {	var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://localhost/bookmarklets/css-bookmarklet.js'); document.body.appendChild(jsCode); }());">css</a></p>
+	
+	<h4>animate</h4>
+	<pre>
+		javascript:(function () {	var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://localhost/bookmarklets/animate-bookmarklet.js'); document.body.appendChild(jsCode); }());
+	</pre>
+	<p><a href="javascript:(function () {	var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://localhost/bookmarklets/animate-bookmarklet.js'); document.body.appendChild(jsCode); }());">Animate!css</a></p>
+
+	
+	<h4>Edit this toggle</h4>
+	<pre>
+		javascript:document.body.contentEditable = ( document.body.contentEditable != 'inherit' && document.body.contentEditable != 'false' ? 'false' : 'true' ); document.designMode=(document.designMode == 'on' ? 'off' : 'on'); void 0
+	</pre>
+	<p><a href="javascript:document.body.contentEditable = ( document.body.contentEditable != 'inherit' && document.body.contentEditable != 'false' ? 'false' : 'true' ); document.designMode=(document.designMode == 'on' ? 'off' : 'on'); void 0">Editable Toggle</a></p>
+	
+	
+</body>
+</html>
